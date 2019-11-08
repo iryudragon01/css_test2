@@ -1,0 +1,61 @@
+.container{
+  background: pink;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.clr{
+  clear: both;
+}
+header{
+  width: 100%;
+  background:black;
+  margin: 0 auto;
+  height: 50px;
+  text-align: center;
+}
+header a{
+  background-color: #4CAF50;
+  display: inline-block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+section{
+  background-color: orange;
+  width: 80%;
+  height: 400px;
+  float: left;
+  margin-top: 20px;
+}
+aside{
+  position: fixed;
+  top: 100px;
+  right: 0;
+  width: 20%;
+  height: 200px;
+  float: right;
+}
+aside ul{
+  padding: 0 0;
+}
+aside li{
+  padding: 0 0;
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  color: black;
+  background-color: #4caf50;
+  font-size: 50px;
+  opacity: 50%;
+
+}
+
+footer{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: blue;
+}
