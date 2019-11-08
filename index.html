@@ -16,13 +16,21 @@
         <a href="#">logout</a>
       </header>
       <section>
-        <h1>content</h1>
+        <div id="content-a" class="content-show">
+          <p>content a</p>
+        </div>
+        <div id="content-b" class="content-show">
+          <p>content b</p>
+        </div>
+        <div id="content-c" class="content-show">
+          <p>content c</p>
+        </div>
       </section>
       <aside class="sidebar">
         <ul>
-          <li>main content</li>
-          <li>top up</li>
-          <li>statement</li>
+          <li id="btn-a" class="btn-show" onclick="show_content('content-a',this)">main content</li>
+          <li id="btn-b" class="btn-show" onclick="show_content('content-b',this)">top up</li>
+          <li id="btn-c" class="btn-show" onclick="show_content('content-c',this)">statement</li>
         </ul>
       </aside>
       <div class="clr">
@@ -42,5 +50,8 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
+<script type="text/javascript" src="scripts/main.js">
+
+</script>
   </body>
 </html>
